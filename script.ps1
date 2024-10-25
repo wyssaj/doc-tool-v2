@@ -15,3 +15,9 @@ if ($ExitCode) {
 $Env:MyVariable
 $Parameter1
 $PSVersionTable
+
+"echo file" | Out-File fileyoujustcreated.txt
+
+git add fileyoujustcreated.txt
+git commit -m "updating file"
+git push
