@@ -23,4 +23,4 @@ $PSVersionTable
 
 git add fileyoujustcreated.txt
 git commit -m "updating file"
-git push
+git push origin HEAD:main
