@@ -18,6 +18,9 @@ $PSVersionTable
 
 "echo file" | Out-File fileyoujustcreated.txt
 
+& git config --local user.email "wyssaj@gmail.com"
+& git config --local user.name "Adam Wyss"
+
 git add fileyoujustcreated.txt
 git commit -m "updating file"
 git push
